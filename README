@@ -1,0 +1,12 @@
+# jModel
+
+Icosahedral grid models for geophysical fluid dynamics modelling
+
+Fabrício Rodrigues Lapolli, Dec 2023
+
+inspired by iModel (https://github.com/pedrospeixoto/iModel)
+
+
+jModel is a pack of shallow water models based on the discretizations of NICAM, FeSOM 2.0, MPAS-O, and ICON-O
+
+At the current level it only runs with the comprun.sh file
