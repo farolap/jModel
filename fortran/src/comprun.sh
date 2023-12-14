@@ -2,11 +2,14 @@
 set -e
 
 
+
 export OMP_NUM_THREADS=15
 
 FFLAGS='-O3 -fopenmp';
 #FFLAGS=$FFLAGS' -fcheck=all -Wall';
 grid='A';
+
+test ! -d ../result${grid} && mkdir ../result${grid}
 
 addit='';
 if [[ $grid == "A" ]]; then
